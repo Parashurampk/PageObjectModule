@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113818" started-at="2021-11-26T16:55:08Z" finished-at="2021-11-26T16:57:02Z">
+    <groups>
+    </groups>
+    <test name="Find New Car Test" duration-ms="60598" started-at="2021-11-26T16:55:08Z" finished-at="2021-11-26T16:56:09Z">
+      <class name="testcases.FindNewCarTest">
+        <test-method status="FAIL" signature="findNewCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindNewCarTest@3ba987b8]" name="findNewCar" duration-ms="27628" started-at="2021-11-26T16:55:08Z" data-provider="dp1" finished-at="2021-11-26T16:55:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyundai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyundai Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div[2]/div/div[2]/div/h1"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I3BGM4H', ip: '192.168.29.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d85a5f8dbbecbfadf66f3bd155dc83cd, findElement {using=xpath, value=//*[@id="root"]/div[2]/div/div[2]/div/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Parashuram\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:57795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57795/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d85a5f8dbbecbfadf66f3bd155dc83cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div[2]/div/div[2]/div/h1"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-I3BGM4H', ip: '192.168.29.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d85a5f8dbbecbfadf66f3bd155dc83cd, findElement {using=xpath, value=//*[@id="root"]/div[2]/div/div[2]/div/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Parashuram\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:57795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57795/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d85a5f8dbbecbfadf66f3bd155dc83cd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.getText(Unknown Source)
+at base.CarBase.getCarTitle(CarBase.java:27)
+at testcases.FindNewCarTest.findNewCar(FindNewCarTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@3ba987b8]" name="tearDown" is-config="true" duration-ms="990" started-at="2021-11-26T16:55:36Z" finished-at="2021-11-26T16:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="findNewCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindNewCarTest@3ba987b8]" name="findNewCar" duration-ms="15482" started-at="2021-11-26T16:55:37Z" data-provider="dp1" finished-at="2021-11-26T16:55:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BMW Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@3ba987b8]" name="tearDown" is-config="true" duration-ms="1078" started-at="2021-11-26T16:55:53Z" finished-at="2021-11-26T16:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="findNewCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindNewCarTest@3ba987b8]" name="findNewCar" duration-ms="13970" started-at="2021-11-26T16:55:54Z" data-provider="dp1" finished-at="2021-11-26T16:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Toyota Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindNewCarTest@3ba987b8]" name="tearDown" is-config="true" duration-ms="999" started-at="2021-11-26T16:56:08Z" finished-at="2021-11-26T16:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.FindNewCarTest -->
+    </test> <!-- Find New Car Test -->
+    <test name="Car Name and Price Test" duration-ms="52801" started-at="2021-11-26T16:56:09Z" finished-at="2021-11-26T16:57:02Z">
+      <class name="testcases.CarNameAndPriceTest">
+        <test-method status="PASS" signature="carNameAndPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarNameAndPriceTest@5890e879]" name="carNameAndPrice" duration-ms="16315" started-at="2021-11-26T16:56:09Z" data-provider="dp1" finished-at="2021-11-26T16:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyundai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyundai Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarNameAndPriceTest@5890e879]" name="tearDown" is-config="true" duration-ms="1195" started-at="2021-11-26T16:56:26Z" finished-at="2021-11-26T16:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="carNameAndPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarNameAndPriceTest@5890e879]" name="carNameAndPrice" duration-ms="16533" started-at="2021-11-26T16:56:27Z" data-provider="dp1" finished-at="2021-11-26T16:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BMW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BMW Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarNameAndPriceTest@5890e879]" name="tearDown" is-config="true" duration-ms="931" started-at="2021-11-26T16:56:43Z" finished-at="2021-11-26T16:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="carNameAndPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarNameAndPriceTest@5890e879]" name="carNameAndPrice" duration-ms="16351" started-at="2021-11-26T16:56:44Z" data-provider="dp1" finished-at="2021-11-26T16:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toyota]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Toyota Cars]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNameAndPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarNameAndPriceTest@5890e879]" name="tearDown" is-config="true" duration-ms="1415" started-at="2021-11-26T16:57:01Z" finished-at="2021-11-26T16:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CarNameAndPriceTest -->
+    </test> <!-- Car Name and Price Test -->
+  </suite> <!-- Suite -->
+</testng-results>
